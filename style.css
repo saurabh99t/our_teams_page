@@ -4,6 +4,7 @@
   
   .responsive-cell-block {
     min-height: 75px;
+    transition: 0.8s ease-in-out;
   }
   
   .text-blk {
@@ -25,6 +26,7 @@
     margin-bottom: 0px;
     margin-left: auto;
     justify-content: space-evenly;
+    /* transition: 0.8s ease-in-out; */
   }
   
   .team-head-text {
@@ -114,6 +116,23 @@
   .team-member-image {
     max-width: 100%;
   }
+
+
+  .card{
+    border-top: 4px solid black;
+  }
+
+  .card:hover{
+    transform: translateY(-10px);
+  }
+
+
+  .responsive-cell-block :hover{
+    filter: brightness(105%);
+  
+  }
+
+
   
   @media (max-width: 500px) {
     .card-container {
